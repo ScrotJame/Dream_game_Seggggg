@@ -1099,7 +1099,6 @@ GameObject:
   - component: {fileID: 1659453201}
   - component: {fileID: 1659453202}
   - component: {fileID: 1659453204}
-  - component: {fileID: 1659453203}
   m_Layer: 0
   m_Name: Girl
   m_TagString: Player
@@ -1249,60 +1248,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 6
---- !u!114 &1659453203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659453197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  data:
-    dataString: UEsDBBQAAAgIAAA4Ieykrrk+VQIAABEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMtu2zAQ/BWD56aQ3BS2e2sVx+nBiRE3yEUXmlxZhClS4CN+wf/eJSVZioueTMzM7s4+5DMRytbAnDYLI/hScyA/RiS8yZdRTz7BgW61WosTdJp3wV0ZRDRqXqkTGvE0hFldgTOC/VRbGcQJgl6JQptqzreQaesswgWVFpAy2oVohdB5RA74czcLIUd8jSfhdcLXLBld8MlAOTC9tBN2skblFZO0qoEHy704nbbqtJEpbKZVBONMSyls64S4Yx07zWhtPfaBAi4odhbLB30JYlu64HIY/FIUFlxrydDjgzA4oCYr+aWbqVXU7hpfH1R6uBpvUi7/Ye/SSBdGV09d1TQJFVwp2O6VHhm1bjDUIfzw2bZXeyp3dCPhvQT1rBdGe8WRdMaHUG9h/DBIde0sK4Htel3j9Qb09f93E5q4xOYPmRTVJlBf7xtgLXUcd9w8GFzMb3Qc78K2KRANLt4s/KHb4QG1xKMw1iHVtqmCvY32JkjJPA4tdONdpo2CCLema1BUuuMK07jbDd5wg7I3zCMNn0pbvOW6L+AmJMK9PkluqJXeX7dlS71fgi1fvJNCQW86EM84p0wr1RzYcCZd2NqbgrJB2NYL/vm2yPdNMZmNWTrbTJMk/QZ3U85mswJSNr2fjJOCknh8QmGfVK4ao+14cGuqT67w0Lp/kNHC0DoeOzd0vxCnSg9GLlSh18wAqJcmw9U4GCyCHyWfc4EDWoNzQsV9k3NOpGY74Pk1UR47nR+coXmfJSe1+NAuIDnJ4l9GTgJ8veWVgQ8B+1C8S3Yhl79QSwMEFAAACAgAADgh7AC2A+VtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJpUpq5pVGyoWWShYGBoXGqrkVKsqVlWqphsoWJuZFBWqJSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAADgh7KSuuT5VAgAAEQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAADgh7AC2A+VtAAAAeAAAAAkAJAAAAAAAAAAAAAAAogIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABaAwAAAAA=
-    upgradeData: 
-    file_cachedStartup: {fileID: 0}
-    data_cachedStartup: 
-    cacheStartup: 0
-  showNavGraphs: 1
-  showUnwalkableNodes: 1
-  debugMode: 0
-  debugFloor: 0
-  debugRoof: 1
-  manualDebugFloorRoof: 0
-  showSearchTree: 0
-  unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
-  maxNearestNodeDistance: 100
-  scanOnStartup: 1
-  fullGetNearestSearch: 0
-  prioritizeGraphs: 0
-  prioritizeGraphsLimit: 1
-  colorSettings:
-    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
-    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
-    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
-    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
-    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
-    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
-    _AreaColors: []
-  tagNames: []
-  heuristic: 2
-  heuristicScale: 1
-  threadCount: 1
-  maxFrameTime: 1
-  batchGraphUpdates: 0
-  graphUpdateBatchingInterval: 0.2
-  euclideanEmbedding:
-    mode: 0
-    seed: 0
-    pivotPointRoot: {fileID: 0}
-    spreadOutCount: 1
-  showGraphs: 1
 --- !u!114 &1659453204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1316,7 +1261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  target: {fileID: 0}
+  target: {fileID: 1485513045}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
