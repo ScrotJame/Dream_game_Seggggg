@@ -5,16 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Barrier
-  - Enemy
+  - Target
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - Action
   - Water
   - UI
-  - Barrier
-  - Enemy
+  - 
+  - 
   - 
   - 
   - 
