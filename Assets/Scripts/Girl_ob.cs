@@ -67,13 +67,18 @@ public class Girl_ob : MonoBehaviour
             //if Ob1 see Tag go to this
             if (hit.collider.gameObject.CompareTag("Boy"))
             {
-                //Go to enemy
+                // stop move
                 val = false;
-            }
-            //else stop move
+            } 
+            //move to finish
             else
             {
                 val = true;
+            }
+            if (hit.collider.gameObject.CompareTag("BarrierTurn"))
+            {
+                
+                transform.localScale = new Vector2(-1, 1);
             }
             Debug.Log("Thay vat can");
             Debug.DrawLine(CastPoint.position, hit.point, Color.blue);
@@ -100,6 +105,7 @@ public class Girl_ob : MonoBehaviour
             isFacingLeft = true;
         }
     }
+
     public void StandEnemy()
     {
         isArgo = false;
